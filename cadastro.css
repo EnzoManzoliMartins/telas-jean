@@ -1,0 +1,95 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #b5bde0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  .register-container {
+    background: rgb(255, 255, 255);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+  }
+
+  .register-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2e8b57;
+    font-weight: bold;
+  }
+
+  .register-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .register-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+
+  .register-container button:hover {
+    background-color: #3cb371;
+  }
+
+  .register-container a {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .register-container a:hover {
+    text-decoration: underline;
+    color: #3cb371;
+  }
+
+  .form-group {
+    margin-bottom: 10px;
+  }
+
+  .terms {
+    font-size: 0.9em;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  .terms a {
+    display: inline;
+    margin: 0;
+    color: #2e788b;
+    text-decoration: underline;
+  }
+
+  .terms a:hover {
+    color: #3cb371;
+  }
+
+  .terms input {
+    width: auto;
+  }

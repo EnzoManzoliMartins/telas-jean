@@ -1,0 +1,76 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #b5bde0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .login-container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 300px;
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  .login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #2e8b57;
+    font-weight: bold;
+  }
+
+  .login-container input[type="email"],
+  .login-container input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .login-container input[type="checkbox"] {
+    margin-right: 5px;
+  }
+
+  .login-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e8b57;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .login-container button:hover {
+    background-color: #3cb371;
+  }
+
+  .login-container label {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .login-container a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #000000;
+    text-decoration: none;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+  }
+
+  .login-container a:hover {
+    text-decoration: underline;
+    color: #3cb371;
+  }
