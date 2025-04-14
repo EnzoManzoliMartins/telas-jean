@@ -8,7 +8,7 @@
 <body>
   <div class="register-container">
     <h2>Criar Conta</h2>
-    <form action="/cadastro" method="POST">
+    <form action="../controller/Cadastrocontroller.php"method="POST">
       <div class="form-group">
         <input type="text" name="nome" placeholder="Nome completo" required>
       </div>
@@ -26,8 +26,9 @@
         <p >Eu concordo com os Termos de Serviço</p>
       </div>
       <button type="submit">Cadastrar</button>
+      
     </form>
-    <a href="login.html">
+    <a href="login.php">
       Já tem conta? Faça login</a>
   </div>
 </body>
