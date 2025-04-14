@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Entrar</h2>
+    <form action="/login" method="POST">
+      <input type="email" name="email" placeholder="Email" required>
+      <input type="password" name="senha" placeholder="Senha" required>
+      <label>
+        <input type="checkbox" name="lembrar"> Lembrar-me
+      </label>
+ 
+      <button type="submit">Entrar</button>
+    </form>
+   <a href="recuperação de senha.php" >
+    recuperacao de senha</a>
+   <a href="cadastro.php">
+    criar nova conta</a>
+  </div>
+</body>
+</html>
