@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recuperação de Senha</title>
-    <link rel="stylesheet" href="receperação de senha.css">
+    <link rel="stylesheet" href="receperacao-de-senha.css">
 </head>
 <body>
     <div class="container">
@@ -19,20 +19,19 @@
             <div class="form-group">
                 <label for="email">E-mail</label>
                 <input type="email" id="email" name="email" required placeholder="seu@email.com">
-            </div>
-            <button type="submit">Enviar Instruções</button>
-        </form>
-       
-        <div class="login-link">
+                
+                <button type="submit">enviar email</button>
+                <div class="login-link">
             <a href="login.php">Voltar ao login</a>
         </div>
-    </div>
 
     <script>
         document.getElementById("recoveryForm").addEventListener("submit", function(event) {
             event.preventDefault(); 
-            window.location.href = "enviodeemail.php"; 
+            window.location.href = "codigo.php"; 
         });
+
+        
     </script>
 </body>
 </html>

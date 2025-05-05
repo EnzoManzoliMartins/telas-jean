@@ -1,21 +1,21 @@
 <?php
- 
+
 class usePDO
 {
-    private $servername = "localhost";
+    private $servername = "localhost"; 
     private $username = "root";
-    private $password = "";
-    private $dbname = "telas jean";
-    private $instance;
- 
-    function getInstance()
+    private $password = ""; 
+    private $dbname = "telas_jean"; 
+    private $instance; 
+
+    public function getInstance()
     {
         if (empty($this->instance)) {
-            $this->instance - $this->connection();
+            $this->instance = $this->connection();
         }
         return $this->instance;
     }
- 
+
     private function connection()
     {
         try {
@@ -23,9 +23,10 @@ class usePDO
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             return $conn;
         } catch (PDOException $e) {
-            echo "Connection failed: " . $e->getMessage();
+            echo "Erro de conexão: " . $e->getMessage();
+            exit;
         }
     }
 }
- 
+
 ?>
